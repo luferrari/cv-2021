@@ -11,7 +11,7 @@ var it = function(){
 		$('[name="bio"]').html('<p>Lucia Ferrari, classe 1995, laureanda in Design della Comunicazione al Politecnico di Milano.</p><p>Una forte attitudine creativa, associata ad una grande passione per la musica, ha trovato il suo sbocco nella produzione digitale di brani di musica elettronica e sperimentale.</p><p>Da sempre ispirata dal mondo dei videogiochi e dell&rsquo;animazione, spesso ne utilizzo il linguaggio come ispirazione per i miei lavori di graphic e web design.</p><p>Mi affascina molto lo studio e l&rsquo;utilizzo del segno grafico. Per questo la tipografia rappresenta un&rsquo;altra mia passione, con particolare interesse per la differenziazione dei caratteri, grazie al loro impatto e contributo nello sviluppo di un progetto di comunicazione.</p><p>Trovo infine stimolante lo studio e l&rsquo;utilizzo delle lingue straniere, specialmente quelle con sistemi di scrittura non alfabetici.</p>');
 
 	$('[name="work"]').html('<i aria-hidden="true" class="fas fa-briefcase"></i>Esperienze lavorative');
-		$('[name="loreal"]').html('<time datetime="2020-10-05">ottobre 2020&ndash;aprile 2021</time><p><dfn><b>Tirocinio</b> presso <b>L&rsquo;Oréal Italia</b></dfn></p>');
+		$('[name="loreal"]').html('<time datetime="2020-10-05">ottobre 2020&ndash;aprile 2021</time><p><dfn><b>Tirocinio</b> presso <b>L&rsquo;Oréal Italia</b></dfn></p><u>Direttore Digital & Comunicazione</u>');
 
 	$('[name="skills"]').html('<i aria-hidden="true" class="fas fa-lightbulb"></i>Conoscenze');
 		$('[name*="langs"]').html('<div class="prog" style="margin-right:.7ch"><div style="width:100%"></div></div>Italiano <span name="b"><b>&Colon;</b> madrelingua</span></div><div><div class="prog" style="margin-right:.7ch"><div style="width:100%"></div></div>Inglese <b>&Colon;</b> TOEIC C1</div>');
@@ -34,7 +34,7 @@ var en = function(){
 		$('[name="bio"]').html('<p>Lucia Ferrari, born 1995, graduate student in Communication Design at Politecnico di Milano.</p><p>A strong creative inclination, along with great passion for music, has found its outlet in digital production of electronic and experimental music tracks.</p><p>Having always been inspired by the world of videogames and animation, I often use their visual language as inspiration for my graphic and web design work.</p><p>I am fascinated by the study and use of the graphic stroke. For this reason typography represents one other passion of mine, with particular interest in the differentiation of typefaces, thanks to their impact and contribution to the development of a communication design project.</p><p>Lastly, I am keen on the study and use of foreign languages, especially if written in non-Latin scripts.</p>');
 
 	$('[name="work"]').html('<i aria-hidden="true" class="fas fa-briefcase"></i>Work experience');
-		$('[name="loreal"]').html('<time datetime="2020-10-05">October 2020&ndash;April 2021</time><p><dfn><b>Internship</b> at <b>L&rsquo;Oréal Italy</b></dfn></p>');
+		$('[name="loreal"]').html('<time datetime="2020-10-05">October 2020&ndash;April 2021</time><p><dfn><b>Internship</b> at <b>L&rsquo;Oréal Italy</b></dfn></p><u>Digital & Communication Director</u>');
 
 	$('[name="skills"]').html('<i aria-hidden="true" class="fas fa-lightbulb"></i>Skills');
 		$('[name*="langs"]').html('<div class="prog" style="margin-right:.7ch"><div style="width:100%"></div></div>Italian <b>&Colon;</b> first lang<span name="a">uage</span></div><div><div class="prog" style="margin-right:.7ch"><div style="width:100%"></div></div>English <b>&Colon;</b> TOEIC C1</div>');
@@ -43,3 +43,5 @@ var en = function(){
 
 	$('footer').html('<p>I authorize the use of my personal data in this curriculum vitae pursuant to Italian Law Legislative Decree 30 June 2003, n. 196 and of the GDPR (EU Regulation 2016/679).</p>');
 };
+
+document.write('<style>.noscript { display: none !important; }</style>')
