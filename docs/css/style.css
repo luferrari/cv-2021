@@ -17,6 +17,37 @@
 *:focus {
 }
 
+
+
+dialog.noscript {
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 10;
+	border: unset;
+	background: unset;
+	padding: unset;
+}
+div.noscript {
+	display: table-cell;
+	vertical-align: middle;
+}
+div.noscript div {
+	text-align: center;
+	padding: 0 30px;
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: 200;
+	color: var(--c2);
+	background: var(--c0);
+	box-shadow: 0 0 30px 30px var(--c0), 0 0 60px 60px var(--c0), 0 0 150px 300px var(--c0);
+}
+
+
+
 body::after {
 	content: '';
 	position: fixed;
